@@ -103,3 +103,6 @@ ENV/
 
 # PyCharm
 .idea/
+
+# Personnal
+TODO.txt
