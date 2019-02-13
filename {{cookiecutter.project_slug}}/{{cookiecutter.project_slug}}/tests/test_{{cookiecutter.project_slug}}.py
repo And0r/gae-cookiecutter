@@ -3,7 +3,7 @@ import unittest
 import {{cookiecutter.project_slug}}
 
 
-class {{cookiecutter.project_slug.capitalize()}}TestCase(unittest.TestCase):
+class {{cookiecutter.project_slug.replace('_', ' ').title().replace(' ', '')}}TestCase(unittest.TestCase):
 
     def setUp(self):
         {{cookiecutter.project_slug}}.app.testing = True
