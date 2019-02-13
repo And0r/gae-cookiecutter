@@ -1,0 +1,8 @@
+{
+  "full_name": "John Doe",
+  "email": "john_doe@carrefour.com",
+  "project_name": "GAE Flask App",
+  "project_slug": "{{cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_')}}",
+  "project_short_description": "A Flask app on GCP",
+  "version": "0.1.0"
+}
