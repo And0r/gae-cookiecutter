@@ -11,7 +11,7 @@ class {{cookiecutter.project_slug.replace('_', ' ').title().replace(' ', '')}}Te
 
     def test_index(self):
         rv = self.app.get('/')
-        self.assertIn('Welcome to {{cookiecutter.project_slug}}', rv.data.decode())
+        self.assertIn('Hello World!', rv.data.decode())
 
 
 if __name__ == '__main__':
