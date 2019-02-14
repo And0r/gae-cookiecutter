@@ -1,13 +1,13 @@
 import unittest
 
-import {{cookiecutter.project_slug}}
+import app
 
 
 class {{cookiecutter.project_slug.replace('_', ' ').title().replace(' ', '')}}TestCase(unittest.TestCase):
 
     def setUp(self):
-        {{cookiecutter.project_slug}}.app.testing = True
-        self.app = {{cookiecutter.project_slug}}.app.test_client()
+        app.testing = True
+        self.app = app.test_client()
 
     def test_index(self):
         rv = self.app.get('/')
