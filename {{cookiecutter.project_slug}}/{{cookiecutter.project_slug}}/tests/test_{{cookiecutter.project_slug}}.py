@@ -1,6 +1,6 @@
 import unittest
 
-import app
+from main import app
 
 
 class {{cookiecutter.project_slug.replace('_', ' ').title().replace(' ', '')}}TestCase(unittest.TestCase):
